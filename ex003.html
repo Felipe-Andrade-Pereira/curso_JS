@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: rgb(224, 103, 103);
+            color: blue;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número:')) //O COMANDO 'parseInt' é usado para definir número inteiro
+        var n2 = Number.parseFloat(window.prompt('Digite outro número:'))// o comando 'parse.Float' é usado para definir número com ','(flutuante)
+        var n3 = Number(window.prompt('Digite mais um número: '))//da pra usar somente o comando "Number" sem precisar especificar o tipo dos numeros
+        s = n1 + n2 + n3
+        window.alert('A soma é: ' + s)
+
+    </script>
+</body>
+</html>
